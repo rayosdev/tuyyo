@@ -82,7 +82,7 @@ export default {
       this.convertedToPeru = moment(value, 'HH:mm').tz('Europe/Oslo').tz('America/Lima').format('HH:mm')
     },
     convertPeru(value){
-      this.convertedToNorway = moment(value, 'HH:mm').tz('America/Lima').tz('Europe/Oslo').format('HH:mm')
+      this.convertedToNorway = moment(value, 'HH:mm').add(6, 'hours').format('HH:mm')
     }
   },
   filters: {
