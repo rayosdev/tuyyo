@@ -1,9 +1,11 @@
 <template>
+  <div>
+  <h1>Feliz Compleaños!</h1>
   <div class="home">
     <div class="claudia card">
       <div class="claudia-img"></div>
       <div class="wrapper">
-        <h2>Claudia Jemina Montero Pino</h2>
+        <h2>Claudia Jimena Montero Pino</h2>
         <h3>Peru</h3>
         <h3>{{peru}}</h3>
         <button 
@@ -46,6 +48,7 @@
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -104,13 +107,15 @@ export default {
     align-content: center;
     /* height: 100vh; */
   }
+  h1 {
+    color: rgb(126, 21, 175);
+  }
 
   .home {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: #FFF;
-    padding: 1rem;
   }
 
   .card {
@@ -138,11 +143,11 @@ export default {
 
   .claudia-img,
   .jared-img {
-    width: 200px;
-    height: 200px;
-    background-size: 200px;
+    width: 150px;
+    height: 150px;
+    background-size: 150px;
     border-radius: 50%;
-    border: solid #162a43 20px;
+    border: solid #162a43 15px;
   }
 
   .claudia-img {
