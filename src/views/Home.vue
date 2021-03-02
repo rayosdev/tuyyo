@@ -1,6 +1,6 @@
 <template>
   <div>
-  <h1>Feliz Compleaños!</h1>
+  <h1>Sueno es fantastico</h1>
   <div class="home">
     <div class="claudia card">
       <div class="claudia-img"></div>
@@ -116,11 +116,12 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     color: #FFF;
+    margin-top: 2rem;
   }
 
   .card {
     transition: all .4s;
-    padding: 2rem;
+    padding: 0 2rem;
 
     .wrapper {
       height: 280px;
@@ -137,8 +138,10 @@ export default {
   }
 
   .card {
-    margin: 1rem;
+    margin: 0 1rem;
     max-width: 90%;
+    display: grid;
+    justify-items: center;
   }
 
   .claudia-img,
