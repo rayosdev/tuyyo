@@ -1,6 +1,6 @@
 <template>
   <div>
-  <h1>Sueno es fantastico</h1>
+  <h1>Dormir es fantástico</h1>
   <div class="home">
     <div class="claudia card">
       <div class="claudia-img"></div>
